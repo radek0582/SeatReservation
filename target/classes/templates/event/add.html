@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="head">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Dodaj nowe wydarzenie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+<body class="container">
+
+<div th:replace="shared/nav"></div>
+
+<div class="row">
+    <div class="col-xs-12">
+
+        <form class="form-horizontal" enctype="multipart/form-data" th:object="${event}" th:action="@{/event/add}" method="post">
+            <div class="input-group" th:classappend="${#fields.hasErrors('name')} ? 'has-error' : ''">
+                <label for="name">Nazwa wydarzenia:</label>
+                <input class="form-control" type="text" th:field="*{name}" id="name" name="name" />
+                <div class="help-block" th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></div>
+            </div>
+
+            <div class="input-group" th:classappend="${#fields.hasErrors('artist')} ? 'has-error' : ''">
+                <label for="artist">Artysta:</label>
+                <input class="form-control" type="text" th:field="*{artist}" id="artist" name="artist" />
+                <div class="help-block" th:if="${#fields.hasErrors('artist')}" th:errors="*{artist}"></div>
+            </div>
+
+            <div class="input-group" th:classappend="${#fields.hasErrors('comment')} ? 'has-error' : ''">
+                <label for="comment">Komentarz:</label>
+                <input class="form-control" type="text" th:field="*{comment}" id="comment" name="comment" />
+                <div class="help-block" th:if="${#fields.hasErrors('comment')}" th:errors="*{comment}"></div>
+            </div>
+
+            <div class="input-group" th:classappend="${#fields.hasErrors('imagePath')} ? 'has-error' : ''">
+                <label for="file">Wgraj obrazek:</label>
+                <input class="form-control" type="file" id="file" name="file"/>
+                <div class="help-block" th:if="${#fields.hasErrors('imagePath')}" th:errors="*{imagePath}"></div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Zatwierdz</button>
+
+
+
+        </form>
+    </div>
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>

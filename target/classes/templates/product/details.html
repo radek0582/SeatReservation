@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="head">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Products</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+
+    <style>
+        #square1 {
+            position: fixed;
+            width: 200px;
+            height: 200px;
+            cursor: pointer;
+            background-color: #615;
+        }
+    </style>
+
+
+</head>
+<body class="container">
+
+<div th:replace="shared/nav"></div>
+
+<div class="row">
+    <div class="col-xs-12 text center" th:object="${product}">
+        <h1 th:text="${product.name}">Nazwa</h1>
+        <img th:src="@{/files/{filename}(filename=${product.imagePath})}" />
+        <p th:text="${product.description}">Opis</p>
+        Dodano: <p th:text="${product.timestamp}"></p>
+        Licznik odwiedzin: <p th:text="${product.visitCount}"></p>
+    </div>
+</div>
+
+<h2>Dodaj komentarz:</h2>
+
+<form class="form-horizontal" th:object="${comment}" th:action="@{/comment}" method="post">
+    <input type="hidden" name="productId" th:value="${product.id}" />
+    <div class="input-group" th:classappend="${#fields.hasErrors('nickname')} ? 'has-error' : ''">
+        <label for="nickname">Nick:</label>
+        <input class="form-control" type="text" th:field="*{nickname}" id="nickname" name="nickname" />
+        <div class="help-block" th:if="${#fields.hasErrors('nickname')}" th:errors="*{nickname}"></div>
+    </div>
+
+    <div class="input-group" th:classappend="${#fields.hasErrors('text')} ? 'has-error' : ''">
+        <label for="text">Komentarz:</label>
+        <textarea class="form-control" th:field="*{text}" id="text" name="text">
+        </textarea>
+        <div class="help-block" th:if="${#fields.hasErrors('text')}" th:errors="*{text}"></div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Dodaj</button>
+</form>
+
+<h2>Komentarze:</h2>
+<div th:each="comm : ${product.comments}">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <p>Dodał: <span th:text="${comm.nickname}">nickname</span></p>
+            <p>Data: <span th:text="${comm.timestamp}">timestamp</span></p>
+            <p th:text="${comm.text}">Treść</p>
+
+            <span th:if="${session.userIsAdmin} == true">
+                <td><a th:href="@{/comment/delete/{id}(id=${comm.id})}"
+                     class="btn btn-primary">Usun komentarz<i class="fas fa-user-times ml-2"></i></a></td>
+            </span>
+
+        </div>
+    </div>
+</div>
+
+<div id="square1"></div>
+
+
+<script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+
+<script src="/js/product.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+
+</body>

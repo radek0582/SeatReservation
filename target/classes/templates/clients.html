@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="head">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Users</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+          integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+          crossorigin="anonymous">
+   <!-- <link rel="stylesheet" href="../css/shards.min.css"> -->
+    <style>
+        div {
+            background-color: bisque;
+        }
+
+        body {
+            height: 1100px;
+        }
+
+        /*#square {*/
+            /*position: fixed;*/
+            /*width: 200px;*/
+            /*height: 200px;*/
+            /*cursor: pointer;*/
+            /*background-color: #000;*/
+        /*}*/
+
+    </style>
+</head>
+<body class="container">
+
+<div class="navbar" th:replace="shared/nav"></div>
+
+    <div id="square"></div>
+
+    <div class="card">
+        <div class="card-body">
+            <div th:switch="${clients}" class="container my-5">
+                <p class="my-5">
+                    <a href="/clients/signup" class="btn btn-primary"><i
+                            class="fas fa-user-plus ml-2"> Add Client</i></a>
+                </p>
+
+                <span th:if="(${session.userIsLogged} == false) or (${session.userIsLogged} == null)">
+							<!--niezal.-->
+									<p id="button1" class="my-5">
+										<a href="/loginpage" class="btn btn-primary"><i
+                                                class="fas fa-user-plus ml-2"> Login</i></a>
+									</p>
+									<p id="button3" class="my-5">
+										<a href="/registerpage" class="btn btn-primary"><i
+                                                class="fas fa-user-plus ml-2"> Register</i></a>
+									</p>
+                </span>
+
+                <p id="button1" class="my-5">
+                    <a href="/payingpage" class="btn btn-primary"><i
+                            class="fas fa-user-plus ml-2"> Donate...</i></a>
+                </p>
+
+                <span th:if="${justRegistered} == true">
+							Potwierdz rejestracje linkiem aktywacyjnym przeslanym na Twoja skrzynke email.
+
+                </span>
+
+                <span th:if="${justActivated} == true">
+							Witaj nowy uzytkowniku! Mozesz sie juz zalagowac na swoje konto.
+
+
+                </span>
+
+                <span th:if="${notActivated} == true">
+									Aktywuj konto poprzez link wyslany na Twoja poczte!
+                </span>
+
+                <span th:if="${wrongActivationKey} == true">
+									Bledny klucz aktywacyjny!
+                </span>
+
+
+                <span th:if="${session.userIsLogged} == true">
+							Witaj
+                                <span th:if="${session.userIsAdmin} == true"> adminie </span>
+
+                                <td th:text="${session.userName}"></td>
+
+									<p id="button2" class="my-5">
+								<a href="/logout" class="btn btn-primary"><i
+                                        class="fas fa-user-plus ml-2"> Logout</i></a>
+								</p>
+                </span>
+
+
+                <!--<span th:if="${session.userIsLogged} == true">-->
+                    <div class="col-md-10">
+                        <h2 th:case="null">No client yet!</h2>
+                        <div th:case="*">
+                            <table class="table table-striped table-responsive-md" id="mytab1">
+                                <thead>
+                                <tr>
+                                    <th>Client name</th>
+                                    <th>Edit</th>
+                                    <th>Remove</th>
+                                    <th>Companies</th>
+                                    <th>Continents</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr th:each="client : ${clients}">
+                                    <td th:text="${client.name}"></td>
+                                    <!-- <td th:text="${galaxy.moons.name}"></td> -->
+                                    <!--<span th:if="${session.userIsAdmin} == true">-->
+                                            <td><a th:href="@{/clients/client/edit/{id}(id=${client.id})}"
+                                                   class="btn btn-primary"><i class="fas fa-user-edit ml-2"></i></a></td>
+
+
+                                            <td><a
+                                                    th:href="@{/clients/client/delete/{id}(id=${client.id})}"
+                                                    class="btn btn-primary"><i class="fas fa-user-times ml-2"></i></a></td>
+                                    <!--</span>-->
+
+                                    <!--&lt;!&ndash;<span th:if="${session.userIsAdmin} == false">&ndash;&gt;-->
+                                            <!--<td><a-->
+                                                    <!--class="btn btn-secondary"><i class="fas fa-user-edit ml-2"></i></a></td>-->
+
+
+                                            <!--<td><a-->
+
+                                                    <!--class="btn btn-secondary"><i-->
+                                                    <!--class="fas fa-user-times ml-2"></i></a></td>-->
+                                    <!--</span>-->
+
+                                    <tr1 th:each="company : ${client.companies}">
+                                    <td th:text="${company.name}"></td>
+                                    </tr1>
+
+                                    <tr1 th:each="continent: ${client.continents}">
+                                    <td th:text="${continent.name}"></td>
+                                    <!--<td th:text="${client.company.name}"></td>-->
+                                    <!--<td th:text="${client.continent.name}"></td>-->
+                                    </tr1>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                <!--</span>-->
+            </div>
+        </div>
+    </div>
+
+<script th:inline="javascript">
+    var number = '[[${msg}]]';
+    clientslist = [[${clients}]];
+
+</script>
+
+<script src="/js/main.js"></script>
+
+<script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>

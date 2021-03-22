@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en"
+	  xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="head">
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Products</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+<body class="container">
+
+<div th:replace="shared/nav"></div>
+
+		<span th:if="(${session.userIsLogged} == false) or (${session.userIsLogged} == null)" >
+							Wypelnij formularz rejestracji
+					</span>
+
+
+
+	<h3> Zarejestruj </h3>
+		<div class="card">
+			<div class="card-body">
+				<div class="col-md-10">
+					<form action="#" th:action="@{/register}"
+						th:object="${uzytkownik}" method="post">
+						<div class="row">
+							<div class="form-group col-md-8">
+								<label for="name" class="col-form-label">Name</label> <input
+									type="text" th:field="*{name}" class="form-control" id="name"
+									placeholder="Name"> <span
+									th:if="${#fields.hasErrors('name')}" th:errors="*{name}"
+									class="text-danger"></span>
+							</div>
+							<div class="form-group col-md-8">
+								<label for="password" class="col-form-label">Haslo</label> <input
+									type="text" th:field="*{password}" class="form-control" id="password"
+									placeholder="Password"> <span
+									th:if="${#fields.hasErrors('password')}" th:errors="*{password}"
+									class="text-danger"></span>
+							</div>
+
+							<div class="form-group col-md-8">
+								<label for="email" class="col-form-label">Email</label> <input
+									type="text" th:field="*{email}" class="form-control" id="email"
+									placeholder="Email"> <span
+									th:if="${#fields.hasErrors('email')}" th:errors="*{email}"
+									class="text-danger"></span>
+							</div>
+
+							<div>
+								<span th:if="${existingEmail} == true">
+									Istnieje juz uzytkownik z tym mailem!
+								</span>
+								<span th:if="${existingName} == true">
+									Istnieje juz uzytkownik z ta nazwa!
+								</span>
+								<span th:if="${wrongEmail} == true">
+									Bledny adres email!
+								</span>
+
+							</div>
+
+							<div>
+								<label for="admin" class="col-form-label">Admin</label>
+								<input type="checkbox" th:field="*{admin}" >
+							</div>
+
+
+							<div class="col-md-6">
+								<input type="submit" class="btn btn-primary" value="Zarejestruj">
+							</div>
+
+							<div class="form-group col-md-8"></div>
+
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+</body>
+</html>

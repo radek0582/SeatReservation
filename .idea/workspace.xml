@@ -1,0 +1,1631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4e6df5a-62ed-437d-a78b-7e07a99e5af0" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SolarSystemController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/SolarSystemController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeatReservationController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/SeatReservationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3122">
+              <caret line="240" column="45" lean-forward="false" selection-start-line="240" selection-start-column="45" selection-end-line="240" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/EventController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="56" column="9" lean-forward="false" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestPersonController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/RestPersonController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthorizationController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/AuthorizationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="78" column="31" lean-forward="false" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-dev.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringFoxConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/swagger/SpringFoxConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddProductController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/AddProductController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="54" column="16" lean-forward="false" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductDetailsController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/ProductDetailsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="20" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JUnit4 Test Class" />
+        <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>md5</find>
+      <find>redi</find>
+      <find>flash</find>
+      <find>redire</find>
+      <find>redirectatt</find>
+      <find>changed</find>
+      <find>exist</find>
+      <find>model.add</find>
+      <find>wyst</find>
+      <find>amount</find>
+      <find>backg</find>
+      <find>div1000</find>
+      <find>perm</find>
+      <find>mouseupperm</find>
+      <find>resam</find>
+      <find>mouseupperm1000</find>
+      <find>div1100</find>
+      <find>userIsAdmin</find>
+      <find>drawAct</find>
+      <find>useris</find>
+      <find>nd</find>
+      <find>password</find>
+      <find>usernam</find>
+      <find>env</find>
+      <find>opt</find>
+      <find>@Ser</find>
+      <find>@RestC</find>
+      <find>Json</find>
+      <find>jsonback</find>
+      <find>jpa</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\java\manytomany4\src\main\java\net\javaguides\springboot\tutorial\controller</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/templates/clients.html" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/dao/EventDaoCrud.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/dao/EventDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/product/add.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/product/details.html" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/service/EventService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/service/EventNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/product/list.html" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/EventDetailsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/dao/SeatDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/dao/SeatDaoCrud.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/dao/SeatDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/event/add.html" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/AddEventController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/event/details.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/seats.js" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/java8/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/java8/BasicSample.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/event/list.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/registerpage.html" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/UzytkownikController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/UzytkownikDetailsController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/createpassword.html" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/repository/UzytkownikRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/resetpasswordpage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/loginpage.html" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/service/SeatService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/service/SeatServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/entity/Event.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/entity/Seat.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/shared/nav.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/event/seatreservation.html" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/SeatReservationController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/seats2.js" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/EventController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/email/MailService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/AuthorizationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/java8/BasicExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/java8/SampleJava8.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/entity/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/service/EventServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/swagger/SpringFoxConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/FilesController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/RestPersonController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/entity/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/entity/Comment.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/dao/EventDao.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-thymeleaf-crud-tutorial" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-thymeleaf-crud-tutorial" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="1" />
+    <option name="width" value="1936" />
+    <option name="height" value="1055" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Performance</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>GSPGrailsGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GrailsGroovy</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="manytomany4b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manytomany4b" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manytomany4b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manytomany4b" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manytomany4b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manytomany4b" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manytomany4b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manytomany4b" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manytomany4b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manytomany4b" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manytomany4b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manytomany4b" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manytomany4b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manytomany4b" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="restApi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manytomany4b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manytomany4b" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manytomany4b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manytomany4b" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="swagger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manytomany4b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manytomany4b" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manytomany4b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manytomany4b" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manytomany4b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manytomany4b" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="gifs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manytomany4b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manytomany4b" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manytomany4b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manytomany4b" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="png" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manytomany4b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manytomany4b" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manytomany4b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manytomany4b" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manytomany4b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manytomany4b" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manytomany4b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manytomany4b" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manytomany4b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manytomany4b" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manytomany4b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manytomany4b" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="net.javaguides.springboot.tutorial.java8" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.javaguides.springboot.tutorial.dao" />
+      <recent name="net.javaguides.springboot.tutorial.controller" />
+      <recent name="net.javaguides.springboot.tutorial.service" />
+      <recent name="net.javaguides.springboot.tutorial.entity" />
+      <recent name="net.javaguides.springboot.tutorial.wzorzecFabryka" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\manytomany4\src\main\resources\templates" />
+      <recent name="D:\java\manytomany4\src\main\resources\templates\users" />
+      <recent name="D:\java\manytomany4\src\main\resources\static\js" />
+      <recent name="D:\java\manytomany4\src\main\webapp\images" />
+      <recent name="D:\java\manytomany4\src\main\resources\webapp\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.javaguides.springboot.tutorial.Application" />
+      <option name="VM_PARAMETERS" value="-Xms2g -Xmx4g" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="springboot-thymeleaf-crud-tutorial" />
+      <envs />
+    </configuration>
+    <configuration name="BasicExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.javaguides.springboot.tutorial.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="net.javaguides.springboot.tutorial.java8.BasicExample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="springboot-thymeleaf-crud-tutorial" />
+      <envs />
+    </configuration>
+    <configuration name="PizzaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.javaguides.springboot.tutorial.wzorzecFabryka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="net.javaguides.springboot.tutorial.wzorzecFabryka.PizzaTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="springboot-thymeleaf-crud-tutorial" />
+      <envs />
+    </configuration>
+    <configuration name="SampleJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.javaguides.springboot.tutorial.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="net.javaguides.springboot.tutorial.java8.SampleJava8" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="springboot-thymeleaf-crud-tutorial" />
+      <envs />
+    </configuration>
+    <configuration name="StacjaMeteo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.javaguides.springboot.tutorial.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="net.javaguides.springboot.tutorial.observer.StacjaMeteo2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="springboot-thymeleaf-crud-tutorial" />
+      <envs />
+    </configuration>
+    <configuration name="StarCafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.javaguides.springboot.tutorial.dekorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="net.javaguides.springboot.tutorial.dekorator.StarCafe" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="springboot-thymeleaf-crud-tutorial" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.Application" />
+      <item index="1" class="java.lang.String" itemvalue="Application.StacjaMeteo2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StarCafe" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PizzaTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SampleJava8" />
+      <item index="5" class="java.lang.String" itemvalue="Application.BasicExample" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.BasicExample" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SampleJava8" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PizzaTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.StarCafe" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StacjaMeteo2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INTERFACES" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4e6df5a-62ed-437d-a78b-7e07a99e5af0" name="Default" comment="" />
+      <created>1576854768773</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576854768773</updated>
+      <workItem from="1576854770131" duration="3518000" />
+      <workItem from="1576878104609" duration="1473000" />
+      <workItem from="1577190805618" duration="174000" />
+      <workItem from="1577195104752" duration="144000" />
+      <workItem from="1577354910062" duration="199000" />
+      <workItem from="1577364562696" duration="602000" />
+      <workItem from="1577379035157" duration="976000" />
+      <workItem from="1577381806326" duration="42000" />
+      <workItem from="1577796101813" duration="12000" />
+      <workItem from="1577821384535" duration="97000" />
+      <workItem from="1578691702960" duration="1530000" />
+      <workItem from="1578811808941" duration="3159000" />
+      <workItem from="1578841584715" duration="682000" />
+      <workItem from="1578938151202" duration="687000" />
+      <workItem from="1579014166309" duration="3874000" />
+      <workItem from="1579030778045" duration="624000" />
+      <workItem from="1579109179390" duration="1751000" />
+      <workItem from="1579194761345" duration="743000" />
+      <workItem from="1579344617888" duration="3095000" />
+      <workItem from="1579367713597" duration="1480000" />
+      <workItem from="1579369569236" duration="1889000" />
+      <workItem from="1579376524811" duration="4678000" />
+      <workItem from="1579385814143" duration="78000" />
+      <workItem from="1579428915511" duration="2946000" />
+      <workItem from="1579434970093" duration="592000" />
+      <workItem from="1579464822006" duration="1031000" />
+      <workItem from="1579466015229" duration="212000" />
+      <workItem from="1579532268738" duration="1587000" />
+      <workItem from="1579629146230" duration="1670000" />
+      <workItem from="1579706906300" duration="794000" />
+      <workItem from="1579965719405" duration="1527000" />
+      <workItem from="1580923431719" duration="372000" />
+      <workItem from="1581002707174" duration="616000" />
+      <workItem from="1581023163833" duration="50000" />
+      <workItem from="1581087833712" duration="5845000" />
+      <workItem from="1581097176597" duration="869000" />
+      <workItem from="1581160479626" duration="856000" />
+      <workItem from="1581239888618" duration="5345000" />
+      <workItem from="1581252561480" duration="90000" />
+      <workItem from="1581252740338" duration="393000" />
+      <workItem from="1581281550976" duration="1263000" />
+      <workItem from="1581355018843" duration="646000" />
+      <workItem from="1581524577647" duration="3577000" />
+      <workItem from="1581616064304" duration="611000" />
+      <workItem from="1581792993058" duration="5101000" />
+      <workItem from="1582053495437" duration="376000" />
+      <workItem from="1582055012656" duration="119000" />
+      <workItem from="1582055242411" duration="110000" />
+      <workItem from="1582132199787" duration="2886000" />
+      <workItem from="1582306956208" duration="604000" />
+      <workItem from="1582459400454" duration="6941000" />
+      <workItem from="1582489234064" duration="986000" />
+      <workItem from="1582555504980" duration="2259000" />
+      <workItem from="1582560071264" duration="4461000" />
+      <workItem from="1582652073291" duration="2401000" />
+      <workItem from="1582995786823" duration="2322000" />
+      <workItem from="1583015376730" duration="1542000" />
+      <workItem from="1583017677440" duration="776000" />
+      <workItem from="1583071507193" duration="2634000" />
+      <workItem from="1583939858956" duration="4036000" />
+      <workItem from="1584031938196" duration="1138000" />
+      <workItem from="1584033697006" duration="4931000" />
+      <workItem from="1584195271944" duration="3031000" />
+      <workItem from="1584204686739" duration="3082000" />
+      <workItem from="1584220404383" duration="2851000" />
+      <workItem from="1584265597850" duration="1594000" />
+      <workItem from="1584269594173" duration="2692000" />
+      <workItem from="1584277865302" duration="1468000" />
+      <workItem from="1584293741938" duration="612000" />
+      <workItem from="1585486196051" duration="750000" />
+      <workItem from="1585586196526" duration="1945000" />
+      <workItem from="1585665778745" duration="7330000" />
+      <workItem from="1585756166125" duration="5749000" />
+      <workItem from="1585767577681" duration="1124000" />
+      <workItem from="1585840111496" duration="1960000" />
+      <workItem from="1585842492397" duration="636000" />
+      <workItem from="1585922769438" duration="1580000" />
+      <workItem from="1586560509824" duration="1112000" />
+      <workItem from="1586682738500" duration="327000" />
+      <workItem from="1586683107702" duration="1556000" />
+      <workItem from="1586694105801" duration="1896000" />
+      <workItem from="1586696911212" duration="1975000" />
+      <workItem from="1586707227097" duration="1920000" />
+      <workItem from="1586768098217" duration="1447000" />
+      <workItem from="1586775587277" duration="824000" />
+      <workItem from="1587204414730" duration="1978000" />
+      <workItem from="1587234780004" duration="151000" />
+      <workItem from="1587236174230" duration="3936000" />
+      <workItem from="1587280909633" duration="3295000" />
+      <workItem from="1587294700216" duration="332000" />
+      <workItem from="1587303611872" duration="671000" />
+      <workItem from="1587319688535" duration="3758000" />
+      <workItem from="1587367347325" duration="3839000" />
+      <workItem from="1587378769092" duration="1954000" />
+      <workItem from="1587451882161" duration="5273000" />
+      <workItem from="1587465742909" duration="2621000" />
+      <workItem from="1587818995423" duration="723000" />
+      <workItem from="1587986667717" duration="633000" />
+      <workItem from="1588015176994" duration="22000" />
+      <workItem from="1588100967616" duration="649000" />
+      <workItem from="1588178775651" duration="30000" />
+      <workItem from="1588277684677" duration="549000" />
+      <workItem from="1588348254305" duration="598000" />
+      <workItem from="1588351583076" duration="3311000" />
+      <workItem from="1588418839524" duration="17000" />
+      <workItem from="1588437802802" duration="479000" />
+      <workItem from="1588587409370" duration="2877000" />
+      <workItem from="1588590473081" duration="827000" />
+      <workItem from="1588630142908" duration="1097000" />
+      <workItem from="1588957896533" duration="6377000" />
+      <workItem from="1588972128732" duration="3519000" />
+      <workItem from="1589032041530" duration="785000" />
+      <workItem from="1589063283897" duration="3813000" />
+      <workItem from="1589099560495" duration="1254000" />
+      <workItem from="1589115220064" duration="2341000" />
+      <workItem from="1589137314734" duration="2954000" />
+      <workItem from="1589140387629" duration="1535000" />
+      <workItem from="1589206722964" duration="1386000" />
+      <workItem from="1589210476842" duration="6219000" />
+      <workItem from="1589223367524" duration="70000" />
+      <workItem from="1589292442506" duration="752000" />
+      <workItem from="1589293614192" duration="3460000" />
+      <workItem from="1589314134984" duration="37000" />
+      <workItem from="1589382630556" duration="389000" />
+      <workItem from="1589485289194" duration="41000" />
+      <workItem from="1589486022445" duration="1912000" />
+      <workItem from="1589642711403" duration="3763000" />
+      <workItem from="1589718756676" duration="5047000" />
+      <workItem from="1589790108795" duration="75000" />
+      <workItem from="1589800071840" duration="806000" />
+      <workItem from="1590163573326" duration="1665000" />
+      <workItem from="1590168198038" duration="4876000" />
+      <workItem from="1590178188606" duration="1737000" />
+      <workItem from="1590308843097" duration="5781000" />
+      <workItem from="1590331547756" duration="165000" />
+      <workItem from="1590418356206" duration="719000" />
+      <workItem from="1590602437553" duration="3397000" />
+      <workItem from="1590694889009" duration="1351000" />
+      <workItem from="1590702615662" duration="2743000" />
+      <workItem from="1590752092176" duration="204000" />
+      <workItem from="1590753401521" duration="4410000" />
+      <workItem from="1590870307811" duration="2017000" />
+      <workItem from="1590915058981" duration="2108000" />
+      <workItem from="1591083783706" duration="5748000" />
+      <workItem from="1591181108141" duration="1238000" />
+      <workItem from="1591546435843" duration="3819000" />
+      <workItem from="1591633710224" duration="5625000" />
+      <workItem from="1591647755491" duration="13000" />
+      <workItem from="1591719835676" duration="840000" />
+      <workItem from="1591724716441" duration="2367000" />
+      <workItem from="1591818664368" duration="1990000" />
+      <workItem from="1591822735051" duration="1103000" />
+      <workItem from="1592064421405" duration="532000" />
+      <workItem from="1592065261728" duration="30000" />
+      <workItem from="1592461493894" duration="1895000" />
+      <workItem from="1592521363425" duration="646000" />
+      <workItem from="1592562011351" duration="2418000" />
+      <workItem from="1592598414470" duration="9075000" />
+      <workItem from="1592610010366" duration="851000" />
+      <workItem from="1592641821511" duration="172000" />
+      <workItem from="1592642023906" duration="298000" />
+      <workItem from="1592665407573" duration="7200000" />
+      <workItem from="1592692759384" duration="5087000" />
+      <workItem from="1592736073910" duration="3150000" />
+      <workItem from="1592769859567" duration="1406000" />
+      <workItem from="1592836444506" duration="2486000" />
+      <workItem from="1592845563465" duration="3997000" />
+      <workItem from="1592928089516" duration="2811000" />
+      <workItem from="1592937372178" duration="1538000" />
+      <workItem from="1593011580218" duration="7555000" />
+      <workItem from="1593021753386" duration="954000" />
+      <workItem from="1593025585417" duration="166000" />
+      <workItem from="1593164803730" duration="2877000" />
+      <workItem from="1593173748111" duration="2544000" />
+      <workItem from="1593178592775" duration="6900000" />
+      <workItem from="1593196930213" duration="2075000" />
+      <workItem from="1593272417586" duration="5475000" />
+      <workItem from="1593284828508" duration="1509000" />
+      <workItem from="1593345683345" duration="5745000" />
+      <workItem from="1593363677809" duration="552000" />
+      <workItem from="1593364279189" duration="813000" />
+      <workItem from="1593375360912" duration="1448000" />
+      <workItem from="1593414045817" duration="902000" />
+      <workItem from="1593592260566" duration="2507000" />
+      <workItem from="1593641377782" duration="1634000" />
+      <workItem from="1593643063501" duration="11000" />
+      <workItem from="1593763222810" duration="739000" />
+      <workItem from="1593784971658" duration="1358000" />
+      <workItem from="1593798582030" duration="3961000" />
+      <workItem from="1593808998700" duration="1858000" />
+      <workItem from="1593875171555" duration="5076000" />
+      <workItem from="1593978804708" duration="35000" />
+      <workItem from="1594049736810" duration="4038000" />
+      <workItem from="1594055632021" duration="1777000" />
+      <workItem from="1594386424908" duration="1162000" />
+      <workItem from="1594395731601" duration="1107000" />
+      <workItem from="1594544428578" duration="1952000" />
+      <workItem from="1594563538584" duration="1823000" />
+      <workItem from="1594624905371" duration="4983000" />
+      <workItem from="1594722801703" duration="616000" />
+      <workItem from="1595022472621" duration="662000" />
+      <workItem from="1595068406493" duration="20000" />
+      <workItem from="1595358609404" duration="2549000" />
+      <workItem from="1595432129962" duration="2745000" />
+      <workItem from="1595770938734" duration="6278000" />
+      <workItem from="1595796144065" duration="2525000" />
+      <workItem from="1595839382843" duration="1626000" />
+      <workItem from="1595845259370" duration="512000" />
+      <workItem from="1596534507115" duration="447000" />
+      <workItem from="1596654913176" duration="2836000" />
+      <workItem from="1596715799005" duration="91000" />
+      <workItem from="1596722635898" duration="1305000" />
+      <workItem from="1596734304752" duration="4290000" />
+      <workItem from="1596739837188" duration="759000" />
+      <workItem from="1596957578797" duration="1580000" />
+      <workItem from="1597592858318" duration="1961000" />
+      <workItem from="1597607680541" duration="727000" />
+      <workItem from="1597766531790" duration="3581000" />
+      <workItem from="1597779470361" duration="4038000" />
+      <workItem from="1597785002467" duration="1151000" />
+      <workItem from="1597825977551" duration="8404000" />
+      <workItem from="1597839756144" duration="1787000" />
+      <workItem from="1597858145873" duration="4366000" />
+      <workItem from="1597862875568" duration="16728000" />
+      <workItem from="1597912445157" duration="3158000" />
+      <workItem from="1597918218586" duration="1111000" />
+      <workItem from="1597923291685" duration="9230000" />
+      <workItem from="1597935892832" duration="1776000" />
+      <workItem from="1597997090511" duration="11366000" />
+      <workItem from="1598011886170" duration="3015000" />
+      <workItem from="1598018722951" duration="3160000" />
+      <workItem from="1598025913644" duration="1044000" />
+      <workItem from="1598083279131" duration="2423000" />
+      <workItem from="1598098653159" duration="2905000" />
+      <workItem from="1598107049590" duration="1215000" />
+      <workItem from="1598127260448" duration="7071000" />
+      <workItem from="1598171531121" duration="14032000" />
+      <workItem from="1598259679933" duration="2294000" />
+      <workItem from="1598307866823" duration="7034000" />
+      <workItem from="1598342321455" duration="3039000" />
+      <workItem from="1598350146465" duration="1396000" />
+      <workItem from="1598432359766" duration="2501000" />
+      <workItem from="1598652736270" duration="5008000" />
+      <workItem from="1598709505515" duration="4464000" />
+      <workItem from="1598730394903" duration="9286000" />
+      <workItem from="1598780883111" duration="3742000" />
+      <workItem from="1598885526260" duration="1259000" />
+      <workItem from="1598975359267" duration="5799000" />
+      <workItem from="1599068415638" duration="2902000" />
+      <workItem from="1599141956712" duration="310000" />
+      <workItem from="1599151416954" duration="722000" />
+      <workItem from="1599237403227" duration="4572000" />
+      <workItem from="1599341749641" duration="1537000" />
+      <workItem from="1599405466251" duration="4044000" />
+      <workItem from="1599421171833" duration="3539000" />
+      <workItem from="1599548631507" duration="5679000" />
+      <workItem from="1599564606521" duration="258000" />
+      <workItem from="1599602845323" duration="1850000" />
+      <workItem from="1599726611495" duration="4206000" />
+      <workItem from="1600012517248" duration="3245000" />
+      <workItem from="1600601840578" duration="1116000" />
+      <workItem from="1600759054558" duration="2010000" />
+      <workItem from="1600841461982" duration="5045000" />
+      <workItem from="1600847111926" duration="562000" />
+      <workItem from="1600847768308" duration="983000" />
+      <workItem from="1602618789220" duration="296000" />
+      <workItem from="1602935892492" duration="1802000" />
+      <workItem from="1602953959997" duration="562000" />
+      <workItem from="1603031449618" duration="67000" />
+      <workItem from="1603174076651" duration="2543000" />
+      <workItem from="1604220944093" duration="1408000" />
+      <workItem from="1605370562493" duration="1242000" />
+      <workItem from="1605449039685" duration="2349000" />
+      <workItem from="1606511426796" duration="734000" />
+      <workItem from="1616362696863" duration="1172000" />
+      <workItem from="1616363915564" duration="597000" />
+      <workItem from="1616399149475" duration="247000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SampleJava8Test_testFilter2 - 2020.06.02 at 11h 20m 02s.xml">
+      <configuration name="SampleJava8Test.testFilter2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleJava8Test_testFilter2 - 2020.06.02 at 11h 20m 39s.xml">
+      <configuration name="SampleJava8Test.testFilter2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleJava8Test_testFilter2 - 2020.06.03 at 12h 51m 01s.xml">
+      <configuration name="SampleJava8Test.testFilter2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleJava8Test_testFilter2 - 2020.06.03 at 12h 51m 47s.xml">
+      <configuration name="SampleJava8Test.testFilter2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleJava8Test_testFilter2 - 2020.06.03 at 12h 52m 00s.xml">
+      <configuration name="SampleJava8Test.testFilter2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleJava8Test_testFilter2 - 2020.06.03 at 12h 52m 42s.xml">
+      <configuration name="SampleJava8Test.testFilter2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleJava8Test_testFilter2 - 2020.06.03 at 12h 53m 02s.xml">
+      <configuration name="SampleJava8Test.testFilter2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleJava8Test_testFilter2 - 2020.06.03 at 12h 55m 49s.xml">
+      <configuration name="SampleJava8Test.testFilter2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleJava8Test_testFilter2 - 2020.06.03 at 12h 56m 01s.xml">
+      <configuration name="SampleJava8Test.testFilter2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleJava8Test_testFilter2 - 2020.06.07 at 18h 26m 06s.xml">
+      <configuration name="SampleJava8Test.testFilter2" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="645193000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Key Promoter X" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.48720682" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.48933902" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4075724" sideWeight="0.33848614" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1652452" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4075724" sideWeight="0.66151386" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.49573562" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.48720682" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.61727077" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31236672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25746268" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30178174" sideWeight="0.87526655" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.4936034" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/StudentController.java</url>
+          <line>83</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/StudentController.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/StudentController.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/MagazineController.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="12" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/java8/BasicExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/java8/SampleJava8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/java8/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/MD5Crypt/MD5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/service/UzytkownikServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/service/StripeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/UzytkownikDetailsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/service/CommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/service/CommentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/email/MailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/MagazineController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/service/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/CheckoutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/FilesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/CarController2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/CarController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/entity/Mail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/entity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/entity/Planet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/entity/Uzytkownik.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/entity/Seat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="94" column="5" lean-forward="false" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/entity/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/entity/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1358">
+          <caret line="134" column="34" lean-forward="false" selection-start-line="134" selection-start-column="34" selection-end-line="134" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/utils/DataInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/service/EventService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/service/EventServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="62" column="1" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="62" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/dao/EventDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/ClientsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="54" column="37" lean-forward="false" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/entity/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="137" column="0" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/EventDetailsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-244">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/MailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/UzytkownikController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/ControlsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/ChargeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/AddEventController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/ProductDetailsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="20" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/SolarSystemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/EventController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="56" column="9" lean-forward="false" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/SeatReservationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3122">
+          <caret line="240" column="45" lean-forward="false" selection-start-line="240" selection-start-column="45" selection-end-line="240" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/RestPersonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/AddProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="54" column="16" lean-forward="false" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/controller/AuthorizationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="78" column="31" lean-forward="false" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javaguides/springboot/tutorial/swagger/SpringFoxConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>springboot-thymeleaf-crud-tutorial</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.sun.activation:jakarta.activation:1.2.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
